@@ -16,7 +16,7 @@ export default function Home() {
         <p>
           EM BREVE!
         </p>
-        <a href='https://wa.me/553899611876?text=Ol%C3%A1,%20quero%20fazer%20um%20pedido.'>
+        <a href='https://wa.me/553899611876?text=Ol%C3%A1,%20quero%20fazer%20um%20pedido.' target='_blank'>
           <Image
             src={whatsapp}
             alt='Logo Whatsapp'
