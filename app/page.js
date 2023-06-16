@@ -11,6 +11,7 @@ export default function Home() {
           src={coronel}
           alt='Logo Coronel Burger'
           className='App-logo'
+          quality={100}
           priority
         />
         <p>
