@@ -1,0 +1,74 @@
+.container
+    position: fixed
+    width: 100vw
+    bottom: 4rem
+    display: none
+    justify-content: center
+    align-items: center
+    padding: 1.5rem
+    background-color: #ccc
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px
+    line-height: 1
+    z-index: 9999
+
+    .msg
+        width: 70%
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 0.5rem
+        font-size: 1.5rem
+        line-height: 1
+
+        h2
+            font-size: 1.5rem
+            font-weight: bold
+            text-align: center
+
+        p
+            font-size: 1rem
+            text-align: center
+
+        a
+            font-size: 0.9rem
+            text-align: center
+            color: #04c
+            text-decoration: none
+
+            &:hover
+                color: #15a
+                text-decoration: underline
+
+
+    .aviso
+        h2
+            color: #04c
+
+        p
+            color: #444
+
+    .alerta
+        h2
+            color: #c22
+
+        p
+            color: #444
+
+    svg
+        font-size: 1.5rem
+        cursor: pointer
+        position: absolute
+        right: 10%
+        color: #444
+
+        &:hover
+            color: #c22
+
+@media screen and ( max-width: 1024px )
+    .container
+        .msg
+            h2, p
+                text-align: center
+
+        svg
+            right: 5%
