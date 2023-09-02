@@ -21,8 +21,8 @@ const Login = ({ logged, setLogged, setAlert }) => {
   }, [logged])
 
   const initialValues = {
-    email: 'teste@teste.com',
-    senha: '123456'
+    email: '',
+    senha: ''
   }
 
   const validationSchema = Yup.object({
