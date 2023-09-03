@@ -6,6 +6,7 @@ export const API = async (func, values) => {
 
   const resp = await fetch('https://www.coronelburger.com.br/api/user', {
   // const resp = await fetch('http://192.168.100.110:3000/api/user', {
+  // const resp = await fetch('http://localhost:3000/api/user', {
     method: 'POST',
     body: body
   })

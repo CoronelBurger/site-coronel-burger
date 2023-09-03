@@ -1,8 +1,8 @@
+import Dev from '../../components/layout/Dev'
+
 const Principal = () => {
   return (
-    <p style={{width: '100%', textAlign: 'center'}}>
-      Principal
-    </p>
+    <Dev title='Principal' />
   )
 }
 

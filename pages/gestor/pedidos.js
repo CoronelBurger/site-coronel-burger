@@ -1,8 +1,8 @@
+import Dev from '../../components/layout/Dev'
+
 const Pedidos = () => {
   return (
-    <p style={{width: '100%', textAlign: 'center'}}>
-      Pedidos
-    </p>
+    <Dev title='Pedidos' />
   )
 }
 

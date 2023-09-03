@@ -1,8 +1,8 @@
+import Dev from '../../components/layout/Dev'
+
 const Cardapio = () => {
   return (
-    <p style={{width: '100%', textAlign: 'center'}}>
-      Cardapio
-    </p>
+    <Dev title='Cardápio' />
   )
 }
 
