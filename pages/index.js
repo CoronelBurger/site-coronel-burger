@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -6,16 +8,17 @@ import logo from '../assets/logo.jpg'
 import whatsapp from '../assets/whatsapp.jpg'
 import { useEffect } from 'react'
 
+// const Router = require('react-router');
+// Router.browserHistory.push('/somepath');
 
-useEffect(() => {
-  window.location.replace('https://menu.brendi.com.br/coronel-burger-arinos/')
-}, [])
 
 const Home = () => {
+  useEffect(() => {
+    window.location.replace('https://menu.brendi.com.br/coronel-burger-arinos/')
+  }, [])
+
   return (
-  <>
-  <div></div>
-    {/*<section className={styles.container}>
+    <section className={styles.container}>
       <Image
         src={logo}
         alt='Logo Coronel Burger'
@@ -23,18 +26,17 @@ const Home = () => {
         quality={100}
         priority
       />
-      <p>
+      { /*<p>
         EM BREVE!
-      </p>
+       </p>
       <Link href='https://wa.me/553899611876?text=Ol%C3%A1,%20quero%20fazer%20um%20pedido.' target='_blank'>
         <Image
           src={whatsapp}
           alt='Logo Whatsapp'
           className={styles.whatsapp}
         />
-      </Link>
-  </section>*/}
-  </>
+      </Link>*/}
+  </section>
   )
 }
 
