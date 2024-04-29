@@ -4,10 +4,18 @@ import Image from 'next/image'
 import styles from '../styles/pages/Home.module.sass'
 import logo from '../assets/logo.jpg'
 import whatsapp from '../assets/whatsapp.jpg'
+import { useEffect } from 'react'
+
+
+useEffect(() => {
+  window.location.replace('https://menu.brendi.com.br/coronel-burger-arinos/')
+}, [])
 
 const Home = () => {
   return (
-    <section className={styles.container}>
+  <>
+  <div></div>
+    {/*<section className={styles.container}>
       <Image
         src={logo}
         alt='Logo Coronel Burger'
@@ -25,7 +33,8 @@ const Home = () => {
           className={styles.whatsapp}
         />
       </Link>
-    </section>
+  </section>*/}
+  </>
   )
 }
 
