@@ -1,14 +1,11 @@
-import { wrapper } from '../redux/store'
 import { Analytics } from '@vercel/analytics/react'
 import Head from 'next/head'
-
-import Container from '../components/layout/Container'
 
 import '../styles/globals.sass'
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <Container>
+    <div>
       <Head>
         <title>Coronel Burger</title>
         <meta charset='UTF-8' />
@@ -16,8 +13,8 @@ const MyApp = ({ Component, pageProps }) => {
       </Head>
       <Component {...pageProps} />
       <Analytics />
-    </Container>
+    </div>
   )
 }
 
-export default wrapper.withRedux(MyApp)
+export default MyApp

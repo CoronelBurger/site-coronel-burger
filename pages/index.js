@@ -1,8 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import styles from '../styles/pages/Home.module.sass'
-import logo from '../assets/logo.jpg'
 import { useEffect } from 'react'
 
 const Home = () => {
@@ -10,8 +8,7 @@ const Home = () => {
     window.location.replace('https://menu.brendi.com.br/coronel-burger-arinos/')
   }, [])
 
-  return (
-    <section className={styles.container}>
+  return 
       <Image
         src={logo}
         alt='Logo Coronel Burger'
@@ -19,8 +16,6 @@ const Home = () => {
         quality={100}
         priority
       />
-    </section>
-  )
 }
 
 export default Home
