@@ -1,8 +1,6 @@
 import { Analytics } from '@vercel/analytics/react'
 import Head from 'next/head'
 
-import '../styles/globals.sass'
-
 const MyApp = ({ Component, pageProps }) => {
   return (
     <div>

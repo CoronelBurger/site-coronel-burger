@@ -12,7 +12,6 @@ const Home = () => {
       <Image
         src={logo}
         alt='Logo Coronel Burger'
-        className={styles.logo}
         quality={100}
         priority
       />
