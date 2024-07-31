@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 
 const Home = () => {
   useEffect(() => {
-    window.location.replace('https://menu.brendi.com.br/coronel-burger-arinos/')
+    window.location.replace('https://pedido.anota.ai/loja/coronel-burger-1?f=msa')
   }, [])
 
   return 
